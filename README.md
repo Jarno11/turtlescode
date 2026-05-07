@@ -16,9 +16,9 @@ Each simulation case proceeds through four sequential stages:
   + partition         statistical                                       for the dataset
                       stationarity
                       check
-                                                    ↓
-                                            [5] Convert
-                                          .pyfrs → HDF5
+                                                                              ↓
+                                                                         [5] Convert
+                                                                         .pyfrs → HDF5
 ```
 
 All simulations are run with **PyFR** (a high-order flux reconstruction solver) on GPU nodes. Mesh generation uses **Gmsh**. Post-processing uses **PyVista** and **h5py**.
